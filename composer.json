@@ -1,0 +1,20 @@
+{
+    "name": "wini/manager",
+    "description": "",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "GASPARINI Nicolas",
+            "email": "nicolas.gasp@free.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": { "Wini\\Manager\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
